@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Payment</title>
+    <script>
+        function welcome() {
+            window.alert("Yeay, transaksi kamu sedang diproses. Tungguin sampai kamu di SMS Yeontan ya!🤩");
+        }
+    </script>
+    <link rel="stylesheet" href="stylepulsa.css">
+    <script
+        src="https://kit.fontawesome.com/64d58efce2.js"
+        crossorigin="anonymous"> </script>
+</head>
+<body>
+    <div class="wrapper-pulsa">
+        <!-- Untuk pulsa-1-->
+        <section id="pembayaran"> 
+            <div class="heading-pulsa">
+                <h3> Payment </h3>
+                <p> Belum melakukan pembayaran? Yuk, isi form di bawah ini!</p>
+            </div>
+
+        <div class="bg-card-pembayaran-pulsa">
+            <div class="card-pembayaran-pulsa">
+                <div class="description-pembayaran-pulsa">
+                    <div class="label-pembayaran-pulsa">
+                        <form action="#">
+                            <div class="input-field-pulsa">
+                                <input type="text" name="name" placeholder="No. Telephone" required/>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="list-pembayaran-pulsa">
+                        <label>
+                            <input type="radio" name="pembayaran" checked>
+                            <img src="OVO.png"/>
+                          </label>
+                        
+                          <label>
+                            <input type="radio" name="pembayaran">
+                            <img src="Gopay.png"/>
+                          </label>
+                    </div>
+                    <div class="description-total-pembayaran">
+                        <h4> Total pembayaran pulsa yang harus kamu bayar adalah  </h4>
+                        <h3> Rp 20.000 </h3>
+                    </div>
+                </div>
+                <div class="ctn-pembayaran">
+                    <a href="#" onclick="welcome()" class="btn-pembayaran"> Bayar </a>
+                    </div>
+            </div>
+        </div>
+    </div>
+        </section>
+    
+</body>
+</html>
